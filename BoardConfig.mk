@@ -87,3 +87,5 @@ TW_Y_OFFSET := 50
 TW_H_OFFSET := -50
 # Media Transfer Protocol
 TW_MTP_DEVICE := "Galaxy A04"
+
+TARGET_SUPPORTS_64_BIT_APPS := true
