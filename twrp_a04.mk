@@ -15,6 +15,9 @@ $(call inherit-product-if-exists, device/samsung/a04/shrp_a04.mk)
 # Inherit from a04 device
 $(call inherit-product, device/samsung/a04/device.mk)
 
+PRODUCT_SUPPORTS_64_BIT_APPS := true
+PRODUCT_IS_64_BIT := true
+
 # Product Information
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
