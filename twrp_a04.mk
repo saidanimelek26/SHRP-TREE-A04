@@ -9,10 +9,15 @@
 # SHRP settings
 $(call inherit-product-if-exists, device/samsung/a04/shrp_a04.mk)
 
+# Inherit from mt6765 common
+$(call inherit-product, device/samsung/jdm-mt6765-cmn/common.mk)
 
 # Inherit from a04 device
 $(call inherit-product, device/samsung/a04/device.mk)
 
+# Product Information
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
 PRODUCT_DEVICE := a04
 PRODUCT_NAME := twrp_a04
 PRODUCT_MODEL := SM-A045F
