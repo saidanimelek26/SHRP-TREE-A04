@@ -20,7 +20,6 @@ $(call inherit-product-if-exists, device/samsung/a04/shrp_a04.mk)
 # Inherit from a04 device
 $(call inherit-product, device/samsung/a04/device.mk)
 
-
 PRODUCT_DEVICE := a04
 PRODUCT_NAME := twrp_a04
 PRODUCT_MODEL := SM-A045F
