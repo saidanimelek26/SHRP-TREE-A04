@@ -10,3 +10,6 @@ LOCAL_PATH := device/samsung/a04
 # Copy
 PRODUCT_COPY_FILES +=	\
 	$(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
+
+PRODUCT_PROPERTY_OVERRIDES += ro.product.cpu.abilist64=arm64-v8a
+PRODUCT_PROPERTY_OVERRIDES += ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
