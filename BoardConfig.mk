@@ -7,8 +7,6 @@
 #
 
 DEVICE_PATH := device/samsung/a04
-COMMON_PATH := device/samsung/jdm-mt6765-cmn
-
 # Common BoardConfig.mk
 -include $(COMMON_PATH)/BoardConfigCommon.mk
 
