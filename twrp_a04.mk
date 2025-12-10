@@ -20,8 +20,6 @@ $(call inherit-product-if-exists, device/samsung/a04/shrp_a04.mk)
 # Inherit from a04 device
 $(call inherit-product, device/samsung/a04/device.mk)
 
-# Inherit from mt6765 common
-$(call inherit-product, device/samsung/jdm-mt6765-cmn/common.mk)
 
 PRODUCT_DEVICE := a04
 PRODUCT_NAME := twrp_a04
