@@ -7,6 +7,7 @@
 #
 
 DEVICE_PATH := device/samsung/a04
+
 # Common BoardConfig.mk
 -include $(COMMON_PATH)/BoardConfigCommon.mk
 
