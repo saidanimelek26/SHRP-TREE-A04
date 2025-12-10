@@ -6,10 +6,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-
-# Inherit from mt6765 common
-$(call inherit-product, device/samsung/jdm-mt6765-cmn/common.mk)
-
 # SHRP settings
 $(call inherit-product-if-exists, device/samsung/a04/shrp_a04.mk)
 
